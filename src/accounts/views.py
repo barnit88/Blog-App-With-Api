@@ -1,3 +1,4 @@
+
 from accounts.forms import (
         AdminCreationForm ,
         AccountUpdateForm,
@@ -114,3 +115,4 @@ def user_account_info(request):
     blog = sorted(BlogPost.objects.filter(author = request.user), key=attrgetter('date_updated'), reverse=True)
     context["blogs"] = blog
     return render(request,"accounts/snippets/blog_user_view.html",context)
+
