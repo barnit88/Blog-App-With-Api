@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '!k!lj7)$y0y-3q6=iy^ospdj$k(i2yqx+4u_qdm)m3fi##qee#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['barnit-blog.herokuapp.com','127.0.0.1']
 
 
 if DEBUG:
