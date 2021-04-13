@@ -11,10 +11,14 @@
     "vsintellicode.modify.editor.suggestSelection": 
     "automaticallyOverrodeDefaultValue",
     "editor.minimap.enabled": true,
+    "editor.detectIndentation": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
     "workbench.colorTheme": "Monokai",
     "editor.largeFileOptimizations": false,
     "html.format.indentInnerHtml": true,
     "html.format.indentHandlebars": true,
+    
     "emmet.includeLanguages": {"django-html": "html"},
    
     "files.associations": {
@@ -22,4 +26,5 @@
     },
     "python.pythonPath": "env\\Scripts\\python.exe",
     "editor.fontSize": 12
+
 }
